@@ -27,7 +27,7 @@ const Header = () => {
                 href="#womens-clothing"
                 className="text-white hover:text-gray-200 font-bold"
               >
-                Boys's Fashion
+                Boy's Fashion
               </a>
             </li>
             <li>
