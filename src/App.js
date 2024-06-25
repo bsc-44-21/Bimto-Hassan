@@ -1,7 +1,9 @@
-export const App = () => {
+import React from "react";
+import Homepage from "./pages/homepage/homepage";
+const App = () => {
   return (
-    <div className="font-bold text-center text-2em">
-      WELCOME BIMTO let's work on this bro!!!!!!!!!!!!!!!!
+    <div>
+      <Homepage />
     </div>
   );
 };
