@@ -5,9 +5,9 @@ import Header from "./header";
 export default function Homepage() {
   return (
     <div>
-      <Footer />
-      <div>CONTENT</div>
       <Header />
+      <div>CONTENT</div>
+      <Footer />
     </div>
   );
 }
