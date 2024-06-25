@@ -1,11 +1,12 @@
 import React from 'react';
-//sample product ya ine ndi bwana hassan
-const Product = () => {
+
+const Product = ({ product }) => {
   return (
-    <div>
-      <h2>Mpunga</h2>
-      <p>Kilombelo from phalombe and chikwawa</p>
-      <p>Price: mk 2000/kg</p>
+    <div className="product">
+      <h2>{product.name}</h2>
+      <img src={product.imageUrl} alt={product.name} />
+      <p>{product.description}</p>
+      <p>Price: ${product.price}</p>
     </div>
   );
 };
